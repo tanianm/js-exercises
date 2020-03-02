@@ -3,8 +3,10 @@
 function addNumbers(a, b, c) {
     return a + b + c;
 }
+addNumbers(3,4,6);
 
 function introduceMe(name, age) {
+<<<<<<< Updated upstream
 return "Hello, my name is " + name + " and I am " + age + " years old";
 }
 
@@ -13,7 +15,22 @@ function getRemainder(a, b) {
 
     // Use string interpolation here
     return `The remainder is ${remainder}`
+=======
+return `Hello, my name is ${name} and I am ${age} years old`;
+
 }
+
+introduceMe("Sonjide",27)
+
+function getRemainder(a, b) { 
+    remainder = a % b;
+
+    // Use string interpolation here
+    return `The remainder is ${remainder}`;
+>>>>>>> Stashed changes
+}
+
+getRemainder(23,5)
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
