@@ -3,38 +3,21 @@ function getNumber() {
     return Math.random() * 10;
 }
 
-getNumber();
-
 // Add comments to explain what this function does. You're meant to use Google!
-function s(w1, w2, w3) {
-    return w1.concat(w2, w3);
+function s(w1, w2) {
+    return w1.concat(w2); // in this function concat joins together w1 with w2, and returns a final string containing w1 and w2.
 }
-
-s("I", "like", "pizza");
 
 
 function concatenate(firstWord, secondWord, thirdWord) {
     // Write the body of this function to concatenate three words together
-    // Look at the test case below to understand what to expect in return 
-<<<<<<< Updated upstream
-    return `${firstWord} ${secondWord} ${thirdWord}`;
-}
-
-console.log(concatenate('Code ', 'your ', 'future'))
-console.log(concatenate('I ', 'like ', 'pizza'))
-console.log(concatenate('I ', 'am ', 13))
-
-
-   
-=======
-
+    // Look at the test case below to understand what to expect in return
     return `${firstWord} ${secondWord} ${thirdWord}`;
 }
 
 concatenate("code", "your", "future");
 concatenate("I", "like", "pizza");
 concatenate("I", "am", 13);
->>>>>>> Stashed changes
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

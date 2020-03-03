@@ -4,14 +4,10 @@ function trimWord(word) {
   return word.trim();
 }
 
-trimWord(" CodeYourFuture ");
+trimWord("  CodeYourFuture ");
 
 function getWordLength(word) {
   return word.length;
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 }
 
 getWordLength("A wild sentence appeared!");
@@ -19,10 +15,6 @@ getWordLength("A wild sentence appeared!");
 
 function multiply(a, b, c) {
   return a * b * c;
-<<<<<<< Updated upstream
-  
-=======
->>>>>>> Stashed changes
 }
 
 multiply(2,3,6);
