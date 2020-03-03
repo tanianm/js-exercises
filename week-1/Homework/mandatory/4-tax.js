@@ -22,7 +22,7 @@ calculateSalesTax(15);
   Remember that the prices must include the sales tax (hint: you already wrote a function for this!)
 */
 
-// function formatCurrency(num) {
+// function formatCurrency(number) {
 //   let calculateSalesTax = x;
 //   return `£${x.toFixed(2)}`;
   
