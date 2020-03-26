@@ -9,10 +9,31 @@
 
   Use the tests to confirm which message to return
 */
-
-function bushChecker() {
-
+function isBerryGood(berry) {
+  if (berry === "pink") {
+    return true;
+  } else {
+    return false;
+  }
 }
+
+console.log(isBerryGood("pink"));
+console.log(isBerryGood("neon"));
+
+
+function bushChecker(bushBerryColours) {
+  let areBerriesPink = bushBerryColours.every(isBerryGood);
+  if (areBerriesPink) {
+    return "Bush is safe to eat from";
+  } else {
+    return "Toxic! Leave bush alone!";
+  }
+
+//check if a berry is good or bad
+// find if all the berries in the bush are good or bad
+}
+
+
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

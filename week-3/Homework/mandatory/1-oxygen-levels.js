@@ -8,9 +8,21 @@ To be safe, they need to land on the first unamed planet that has Oxygen levels 
 
 Write a function that finds the oxygen level of the first safe planet - Oxygen between 19.5% and 23.5%
 */
+//isplanetgood takes the value of oxygen and returns a boolean whether it's good or bad
+function isPlanetGood(oxygen) {
+  if (oxygen > "19.5%" && oxygen < "23.5%") {
+    return true;
+  } else {
+    return false;
+  }
+//if oxygen is >= 19.5%  or <=23.5%, return true, else return false.
+}
 
-function safeLevels() {
-
+function safeLevels(oxygenLevels) {
+  let safePlanet = oxygenLevels.find(isPlanetGood);
+  return safePlanet;
+//list of planets, go through them and find the first one that meets some criteria
+//planet is good if oxygen is btn 19.5 - 23.5%
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
