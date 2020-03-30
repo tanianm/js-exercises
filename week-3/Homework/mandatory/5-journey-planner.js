@@ -7,9 +7,12 @@
   NOTE: only the names should be returned, not the means of transport.
 */
 
-function journeyPlanner() {
-
+function journeyPlanner(londonLocations1, transport) {
+  let specificTransport = londonLocations1.filter(element => element[0] === "transport");
+  return(specificTransport);
 }
+
+console.log(journeyPlanner, "bus");
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

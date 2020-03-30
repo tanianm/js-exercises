@@ -8,10 +8,16 @@
   NOTE: don't include any element that is not a "family".
 */
 
-function colonisers() {
-
+function colonisers(voyagers1) {
+  let familyWithLastNameA = voyagers1.filter(element => element.includes("family") && element.charAt(0) === "A");
+  return familyWithLastNameA;
 }
-//
+
+
+
+
+// filter items with family - array (filter)
+// family whose last name starts with A (charAt)
 
 
 /* ======= TESTS - DO NOT MODIFY ===== */
