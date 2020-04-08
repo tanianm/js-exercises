@@ -15,8 +15,11 @@ You don't have to worry about making this algorithm work fast! The idea is to ge
 */
 
 function sortAges(arr) {
-
+let arr1 = arr.replace(agesCase, "");
+return arr1;
 }
+
+console.log(agesCase1);
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
